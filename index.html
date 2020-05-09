@@ -2556,7 +2556,8 @@ window.application = new Application();
  $(document).ready(function(){
   $('button').click(function(){
    const name = $('#nameid').val();
-   alert(name);
+      confirm("Hi, you wanna try");
+
    $('.imgchange').attr('src',`https://joeschmoe.io/api/v1/${name}`);
    const b = $('.imgchange');
    console.log(b);
@@ -2581,7 +2582,7 @@ window.application = new Application();
 		<span>WHAT DOES YOUR NAME SAY ABOUT YOUR <br/>PERSONALITY?</span>
 	</div>
 	<div id="Enter_the_name___">
-		<span>Enter ther name : </span><br/>
+		<span>Enter your name : </span><br/>
 		<input class="in" type="text" name="" id="nameid"/>
 	</div>
 	<svg class="Rectangle_1">
